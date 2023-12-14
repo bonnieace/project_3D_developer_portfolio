@@ -116,55 +116,61 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Internal attachment",
+    company_name: "JKUAT",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2021 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Installing updating and troubleshooting operating systems",
+      "Running network diagnosis and troubleshooting",
+      "Computer hardware assembly including replacing fans,Rams,Hardisks and motherboards ",
+      "Web development including (frontend and backend) ,Deployment and hosting",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "External attachment",
+    company_name: "Kiambu County ICT department",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Setting up network devices including routers, access points and repeaters as well as network troubleshoting",
+      "Network cabinet installation inluding setting up Servers,digital and network video recorders and VOIP phones",
+      "Implementing responsive software design and ensuring cross-platform compatibility.",
+      "Updating POS equipment used for County Council parking fees",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Developer",
+    company_name: "Thamani Cereals",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining a web application using kivy python and other related technologies.",
+      "Collaborating with cross-functional teams including designers and product managers to create a high-quality product.",
+      "Implementing a database using SqlLite3 to replace use of  physical records",
+      "Data entry and use of machine learning to identify trends in sales records",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Freelance Work",
+    company_name: "Masota LLC",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a compiller for a swahili based programming language",
+      "Developing and maintaining web applications using Javascript frameworks and other related technologies.",
+      "Developing Machine Learning solutions for businesses  using python ",
+      "2D and 3D animation using Blender and THREEjs",
+      "User interface and graphics design using Figma",
+      "Business process modelling and simulation",
+      "Implementing smart agents for Artificial intelligence using python",
+      "Creating blockchain smart contracts and  applications using Web3.0 and Solidity",
+
     ],
   },
 ];
@@ -197,38 +203,61 @@ const testimonials = [
 ];
 
 const projects = [
+
+
   {
-    name: "Car Rent",
+    name: "Swahilipro Compiler",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A compiler for a swahili based programming language written in Python",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Compilers ",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "swahilipro",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/bonnieace/swahilipro",
   },
   {
-    name: "Job IT",
+    name: "Coldchain SmartContract",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A blockchain solution for covid-19 vaccine distribution  using solidity and web 3.0         ",
+    tags: [
+      {
+        name: "Blockchain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ethereum ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Coldchain",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/bonnieace/3.2peoject",
+  },
+    {
+    name: "React portfoilio",
+    description:
+      "Developer portfolio website written in React Js ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
@@ -237,29 +266,31 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://bonifacemasota.netlify.app",
+
   },
   {
-    name: "Trip Guide",
+    name: "Kivy POS ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Point of sales system using Kivy Python",
     tags: [
       {
-        name: "nextjs",
+        name: "Kivy",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "POS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobit,
+    source_code_link: "https://github.com/bonnieace/portfolio-website",
   },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
